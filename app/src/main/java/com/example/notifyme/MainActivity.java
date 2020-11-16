@@ -44,7 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 .setContentText("Another dsy to code")
                 .setSmallIcon(R.drawable.ic_android)
                 .setContentIntent(pendingIntent)
-                .setAutoCancel(true);
+                .setAutoCancel(true)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .setDefaults(NotificationCompat.DEFAULT_ALL);
 
         return  builder;
     }
