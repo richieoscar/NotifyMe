@@ -8,13 +8,34 @@
 
     <Button
         android:id="@+id/button_notify"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="335dp"
+        android:layout_height="51dp"
         android:layout_marginBottom="360dp"
         android:text="Notify Me"
-        android:onClick="onCLick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="335dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="48dp"
+        android:text="Update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_notify" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="48dp"
+        android:text="Cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_update" />
 </androidx.constraintlayout.widget.ConstraintLayout>
